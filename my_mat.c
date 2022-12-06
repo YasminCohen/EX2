@@ -5,15 +5,15 @@
 int matrix[sizeMat][sizeMat];
 
 
-void printt(){
-    for (int i = 0; i<sizeMat; i++) {
-        for (int j = 0; j < sizeMat; j++) {
-            printf("%d ", matrix[i][j]);
-        }
-        printf("\n");
-
-    }
-}
+//void printt(){
+//    for (int i = 0; i<sizeMat; i++) {
+//        for (int j = 0; j < sizeMat; j++) {
+//            printf("%d ", matrix[i][j]);
+//        }
+//        printf("\n");
+//
+//    }
+//}
 
 void scanMatrix(){
 
@@ -43,7 +43,6 @@ void scanMatrix(){
 }
 
 void shortestPath(int p1, int p2){
-    printt();
     if (matrix[p1][p2] == 0){
         printf( "-1\n");
     }
