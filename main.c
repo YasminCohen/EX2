@@ -13,11 +13,11 @@ int main()
         }else if(chose == 'B') {
             int p1, p2;
             scanf("%d%d", &p1 ,&p2);
-            shortestPath(p1, p2);
+            isExistsPath(p1, p2);
         }else if (chose == 'C') {
             int V1, V2;
             scanf("%d%d", &V1 ,&V2);
-            isExistsPath(V1, V2);
+            shortestPath(V1, V2);
         }else if (chose == 'D') {
             stop = 0;
         }
